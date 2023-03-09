@@ -68,7 +68,9 @@ function compile() {
   var code = userCode;
   var input = userInput;
 	// Post request to compile endpoint
-	Axios.post(`http://97.74.80.156:9010/java`, {
+	//http://97.74.80.156:9010/java
+	//http://54.169.150.188:9010/java
+	Axios.post(`http://54.169.150.188:9010/java`, {
 	code,input
 }).then((res) => {
 	setUserOutput(res.data);
