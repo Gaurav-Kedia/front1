@@ -101,7 +101,7 @@ return (
 			theme={userTheme}
 			language={userLang}
 			defaultLanguage="java"
-			defaultValue="// Enter your code here import java.util.*;\r\nclass HelloWorld {\r\n public static void main(String[] args) {\r\n System.out.println(\"workign....\");\r\n Scanner sc = new Scanner(System.in);\r\n int z = sc.nextInt();\r\n System.out.println(z);\r\n }\r\n}"
+			defaultValue="// Enter your code here"
 			onChange={(value) => { setUserCode(value) }}
 		/>
 		<button className="run-btn" onClick={() => compile()}>
