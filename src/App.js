@@ -71,7 +71,7 @@ function compile() {
 	//http://97.74.80.156:9010/java
 	//http://54.169.150.188:9010/java
 	//https://54.255.84.68:9010/java
-	Axios.post(`http://54.255.84.68:9010/java`, {
+	Axios.post(`https://www.foreverjava.com:9010/java`, {
 	code,input
 }).then((res) => {
 	setUserOutput(res.data);
